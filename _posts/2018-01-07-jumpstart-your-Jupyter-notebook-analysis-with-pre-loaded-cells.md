@@ -1,13 +1,15 @@
 ---
 title: "Jump-start Your Jupyter Notebook Analysis With Pre-Loaded Cells"
+excerpt: "Jumping straight into business because Hello World posts are so cliche."
+layout: single
+header:
+    overlay_image: jupyter-cover.png
+    overlay_filter: 0.2
 categories:
   - data science
 tags:
-  - Jupyter
-  - notebook
-  - data
-  - science
-  - tools
+  - Jupyter notebook
+  - data science tools
   - python
 author: "Vivek"
 date: "7 January 2018"
