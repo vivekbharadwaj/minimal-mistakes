@@ -61,6 +61,10 @@ define([
     };
 });
 ```
+To insert more than one line, increment the code counter like so:
+```
+Jupyter.notebook.insert_cell_above('code', 1).set_text("insert more code here")
+```
 7) Once the main.js file has been created, your notebook extension is now ready to use. You'll also need to enable it, which tells the notebook interface to load it. To do this, use the jupyter subcommand:
     jupyter nbextension enable preload_import_code/main
 ```
