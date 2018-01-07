@@ -16,19 +16,20 @@ date: "7 January 2018"
 hidden: false
 ---
 
-Since its inception in 2014, the [Jupyter ecosystem](http://jupyter.org) along with the Jupyter notebook, has become an integral part of several data scientists’ toolbox. If you’re a Python data scientist like me, the first couple of lines of code in your jupyter notebook is invariably importing all the packages, libraries and custom utilities that you may need for your analysis. When I think about it, "importing" a capability or scikit-learn model almost always makes me feel like Neo from The Matrix.
+Since its inception in 2014, the [Jupyter ecosystem](http://jupyter.org) along with the Jupyter notebook, has become an integral part of several data scientists’ toolbox. If you’re a Python data scientist like me, the first couple of lines of code in your jupyter notebook invariably deal with importing all the packages, libraries and custom utilities that you may need for your analysis. When I think about it, "importing" a capability or instantiating a scikit-learn model method almost always makes me feel like Neo from The Matrix.
 
 ![Python flying xkcd]({{ site.url }}{{ site.baseurl }}/assets/images/python-flying-xkcd.png)
 
 (image taken from: xkcd)
 
-However, it becomes a chore when I need to Ctrl-C+Ctrl-P nearly twice a day, every day. This is exactly the kind of nitty-gritty stuff that data scientists go through, which somehow doesn't seem to get coverage in the hype machine.
+However, it becomes a chore when I need to Ctrl-C+Ctrl-V nearly twice a day, every day. This is exactly the kind of nitty-gritty stuff that data scientists go through, which somehow doesn't seem to get coverage in the hype machine.
 
 Wouldn’t it be great if each time you initialise your jupyter notebook, it would automatically pre-load a couple of lines of admin and import code so that you can do your thing from the get-go?
 
-There was an excellent conversation on [this github issue](https://github.com/jupyter/notebook/issues/1451) about incorporating this feature. Based on the conversation above, this post is a quick step-by-step guide to create a pre-load feature as a reproducible Jupyter notebook extension in a way that is reproducible from one computer to another.
+There was an excellent conversation on [a github issue](https://github.com/jupyter/notebook/issues/1451) about incorporating this feature. Based on the conversation above, this post is a quick step-by-step guide to create a pre-load feature as a Jupyter notebook extension in a way that is reproducible from one computer to another.
 
-1) If you're running virtual environments using conda or virtualenv (I use anaconda and strongly recommend this for future proofing your code. But more on this some other time.), activate your viritual environment. Otherwise, stick to your base python. 
+1) If you're running virtual environments using conda or virtualenv (I use anaconda and strongly recommend this for future proofing your code. But more on this another time.), activate your viritual environment. Otherwise, stick to your base python. 
+
 2) Check if you have the [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) package  installed . If not, the most straightforward way to install extensions is to use pip: 
 ```
 pip install jupyter_contrib_nbextensions
