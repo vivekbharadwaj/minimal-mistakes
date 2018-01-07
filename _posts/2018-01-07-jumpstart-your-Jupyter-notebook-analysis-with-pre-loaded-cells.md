@@ -24,7 +24,8 @@ However, it becomes a chore when I need to Ctrl-C+Ctrl-P nearly twice a day, eve
 
 Wouldn’t it be great if each time you initialise your jupyter notebook, it would automatically pre-load a couple of lines of admin and import code so that you can do your thing from the get-go?
 
-There was an excellent conversation on [this github issue](https://github.com/jupyter/notebook/issues/1451) about incorporating this feature. Based on the conversation above, this post is a quick step-by-step guide to create a pre-load feature as a reproducible Jupyter notebook extension in a way that is reproducible from one computer to another.<br>
+There was an excellent conversation on [this github issue](https://github.com/jupyter/notebook/issues/1451) about incorporating this feature. Based on the conversation above, this post is a quick step-by-step guide to create a pre-load feature as a reproducible Jupyter notebook extension in a way that is reproducible from one computer to another.
+
 1) If you're running virtual environments using conda or virtualenv (I use anaconda and strongly recommend this for future proofing your code. But more on this some other time.), activate your viritual environment. Otherwise, stick to your base python. 
 2) Check if you have the [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) package  installed . If not, the most straightforward way to install extensions is to use pip: 
 ```
