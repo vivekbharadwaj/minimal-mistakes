@@ -11,12 +11,12 @@ tags:
   - python
 author: "Vivek"
 date: "7 January 2018"
-hidden: true
+hidden: false
 ---
 
 Since its inception in 2014, the [Jupyter ecosystem](http://jupyter.org) along with the Jupyter notebook, has become an integral part of several data scientists’ toolbox. If you’re a Python data scientist like me, the first couple of lines of code in your jupyter notebook is invariably importing all the packages, libraries and custom utilities that you may need for your analysis. When I think about it, "importing" a capability or scikit-learn model almost always makes me feel like Neo from The Matrix.
 
-<!-- ![Python flying xkcd]({{ site.url }}{{ site.baseurl }}/images/python-flying-xkcd.png) -->
+![Python flying xkcd]({{ site.url }}{{ site.baseurl }}/images/python-flying-xkcd.png)
 
 (image taken from: xkcd)
 
@@ -64,7 +64,7 @@ jupyter nbextension enable preload_import_code/main
 ```
 8) You're good to go! When you fire up a new Jupyter notebook instance, the notebook extension checks for the number of cells and adds the custom cell block initially. So this code block will not be added to existing Jupyter notebooks.
 
-<!-- ![Preload jupyter notebook cells]({{ site.url }}{{ site.baseurl }}/images/preload-notebook-utilities.png) -->
+![Preload jupyter notebook cells]({{ site.url }}{{ site.baseurl }}/images/preload-notebook-utilities.png)
 
 In my case, I have all my python imports as well as scikit-learn and nltk methods declared inside the jupyter\_notebook\_imports custom utility. 
 
