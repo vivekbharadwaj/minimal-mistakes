@@ -1,9 +1,9 @@
 ---
-title: "Jump-start Your Jupyter Notebook Analysis With Pre-Loaded Cells"
-excerpt: "Jumping straight into business because Hello World posts are so cliche."
+title: "Jump-start Jupyter Notebook With Pre-Loaded Cells"
+excerpt: "Because Hello World posts are so cliche."
 layout: single
 header:
-    overlay_image: /assets/images/jupyter-ecosystem-overlay.png
+    overlay_image: /assets/images/jupyter-ecosystem-overlay.jpg
     overlay_filter: 0.2
 categories:
   - data science
