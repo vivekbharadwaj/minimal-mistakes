@@ -19,6 +19,8 @@ hidden: false
 
 Can I just say I was equal parts thrilled and creeped out by Boston Dynamics' [latest video](https://youtu.be/fUyU3lKzoio) of Spot-Minis cooperating to open doors? 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fUyU3lKzoio" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 While the entire video was quite interesting, I loved the part where one of the Spot-Minis acts as if it realises that the door is closed. Then it patiently waits for the **other** Spot-Mini with a hand-like contraption to come and open the door. Did the robots communicate, communicate and work together to open teh door and get out of the room? I strongly believe that part was entirely scripted for the purpose of the video. Still, it's not too hard to speculate that someone is working on the problem of large-scale cooperation between AI agents and human beings. 
 
 Now, I struggled to find any published papers from Boston Dynamics about how they do what they do. In fact, notoriously little is known of the actual tech and learning process that Boston Dynamics (BD) use in their robots. I came across a reddit post some time ago where some insiders claimed that BD robots are mostly meticulously hand-engineered rather than architected to use machine learning and artificial intelligence extensively. 
