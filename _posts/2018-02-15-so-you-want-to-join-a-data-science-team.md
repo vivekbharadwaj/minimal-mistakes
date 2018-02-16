@@ -45,6 +45,8 @@ Of course, which of these company attributes are a must-have as opposed to a 'ni
 
 To make sense of all these factors in perspective, it's probably better to put them in a 2x2 or an X-Y coordinate graph. In fact, I'd love to see someone plot all of the joel test like features as false positive rates and an honest self-introspection of skillsets as true positive rates in an ROC AUC curve. Then, finding the right "fit" would be a simple matter of identifying the right "threshold" that you're comfortable with. The fact I find this amusing probably means that I need a vacation.
 
+![ROC Curve]({{ site.url }}{{ site.baseurl }}/assets/images/ROC-curve.png)
+
 Do you agree with the signs I've mentioned above? As a data scientist, what else do you look for in your dream data science team?
 
 Notes: <br>
