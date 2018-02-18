@@ -47,7 +47,7 @@ To make sense of all these factors in perspective, it's probably better to put t
 
 ![ROC Curve]({{ site.url }}{{ site.baseurl }}/assets/images/ROC-curve.png)
 
-Do you agree with the signs I've mentioned above? As a data scientist, what else do you look for in your dream data science team?
+Do you agree with the signs I've mentioned above? What else do you look for yourself or your clients in your dream data science team?
 
 Notes: <br>
 - Cover Image courtesy: [shutterstock](http://www.smartdatacollective.com/wp-content/uploads/2013/01/shutterstock_118303750_1.jpg) <br>
