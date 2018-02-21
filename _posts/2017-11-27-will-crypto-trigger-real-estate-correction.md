@@ -33,7 +33,7 @@ So what does all this mean for the australian real estate market? Real estate is
 
 ![Australian loan concentration]({{ site.url }}{{ site.baseurl }}/assets/images/crypto-real-estate-loan-concentration.png)
 
-PC: [Mortgage lending as a proportion of total loans]((http://www.smh.com.au/business/the-economy/moodys-move-shines-light-on-australias-home-loan-risks-20170619-gwufh4.html)
+PC: [Mortgage lending as a proportion of total loans](http://www.smh.com.au/business/the-economy/moodys-move-shines-light-on-australias-home-loan-risks-20170619-gwufh4.html)
 
 To tie it all together, as crypto adoption increases over time, we will see more people transitioning from their fiat currencies in order to accumulate cryptocurrency. I think that the likelihood that such transitions will cause a correction in our mortgage debt filled economy is highly likely. On the other hand, since bricks and mortar real estate stores actual value, we will see more trades between housing and cryptocurrency directly. This trend, [which has already begun](https://www.domain.com.au/news/melbourne-home-owner-willing-to-accept-bitcoin-payment-for-the-basin-property-20171127-gzs003/), should act as a cushion against major price variations in the housing real estate market in the short term. Over the long term, if the meteoric rise of cryptocurrency continues along the same trend line, the medium of transaction and value transfer in housing will simply shift from traditional currency to cryptocurrency — along with no loss of inherent value.
 
